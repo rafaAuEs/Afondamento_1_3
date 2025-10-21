@@ -8,7 +8,6 @@ public class Cajero extends Thread {
 
     //Constructor y Getters/Setters
     public Cajero (String nombre, List<Cliente> lista){
-        super(nombre); // Llama al constructor de Thread con el nombre
         this.nombreCajero=nombre;
         this.clientes=lista;
     }
